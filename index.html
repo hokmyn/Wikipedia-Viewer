@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="application-name" content="Quote Random Machine" />
+    <meta name="author" content="Denis Kalinin" />
+
+    <title>Quote Random Machine</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+<div class="container">
+		  <header>
+		    <h1 class="text-center">Free Code Camp</h1>
+		    <h3 class="text-center">Wikipedia Viewer</h3>
+		  </header>
+		  <main>			  
+					<p class="text-center rand">Click <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">here</a> to read a random Wikipedia article</p>
+					<p class="text-center">Click icon to search Wikipedia article</p>
+					<div class="container">				
+			  		<div class="searchGroup text-center">							
+			  			<span class="glyphicon glyphicon-search" id="searchIcon" aria-hidden="true"></span>
+							<div class="row">
+								<div class="col-lg-6 col-lg-offset-3">
+									<form>									  
+									  <input type="search" id="searchInput" placeholder="search Wikipedia article...">
+									  <span class="glyphicon glyphicon-remove" id="closeInput" aria-hidden="true"></span>
+									</form>												  					
+								</div>
+			  			</div>
+			  		</div>
+			  		<div id="articles"></div>
+			  	</div>
+		  </main>
+		</div>
+    <!-- Javascript -->
+    <script src="js/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+  </body>
