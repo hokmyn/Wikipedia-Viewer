@@ -1,1 +1,72 @@
+html body {
+	background: url(https://nevendjenadija.files.wordpress.com/2014/04/ukraine_nature_prairie_1366x768_87969.jpg) fixed;
+	background-color: #1F7CF5;
+}
 
+header {
+	margin-bottom: 60px;
+	color: #fff;
+	font-family: 'Comic Sans MS', cursive;
+}
+
+main p {
+	font-size: 20px;
+	color: #000;
+}
+
+.rand a, .rand a:hover, .rand a:visited {
+	color: #e02d18;
+}
+
+.searchGroup {
+	margin: 20px auto;
+	font-size: 30px;
+	color: #DA9D0B;
+}
+
+#searchInput {
+	width: 100%;
+	font-size: 20px;
+	color: #000;
+	border-radius: 10px;
+	opacity: .4;
+	display: none;
+}
+
+#searchInput:focus {
+	border: 2px solid #F01DDF;
+}
+
+#searchIcon, #closeInput {
+	cursor: pointer;
+}
+
+#closeInput {
+	display: none;
+	position: absolute;
+	right: 18px;
+	top: 10px
+}
+
+.article {
+	background-color: #fff;
+	font-size: 16px;
+	margin: 0 auto 20px;
+	border-radius: 5px;
+	width: 80%;
+	padding: 10px;
+	color: #000;
+}
+
+.article:hover {
+	border-left: 4px solid #EF9919;
+}
+
+a.title, a.title:hover, a.title:visited {
+	color: #e02d18;
+}
+
+.error {
+	color: red;
+	font-size: 20px;
+}
